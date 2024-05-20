@@ -52,6 +52,7 @@ nav {
 
 .hero{
     background-color: #2c4940;
+}
 .hero-content {
     display: flex;
     justify-content: space-between;
@@ -63,6 +64,7 @@ nav {
     flex: 1;
     padding-right: 20px;
     margin-top: -10px;
+    color: #f7eaea;
 }
 
 .image-content {
@@ -74,20 +76,7 @@ nav {
     max-width: 100%;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 }
-.button {
-    padding: 10px 20px;
-    background-color: #4CAF50; /* Green background */
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-}
 
-.button:hover {
-    background-color: #45a049;
-}
 
 .social-media {
     display: flex;
@@ -109,29 +98,22 @@ nav {
     height: 40px;
 }
 
-.social-media a:hover {
-    background-color: #005691;
-}
-
 .social-media a.github {
-    background-color: #333;
+    background-color: #ffffff;
 }
 
-.social-media a.github:hover {
-    background-color: #24292e;
-}
+
 
 .social-media a.twitter {
-    background-color: #1DA1F2;
+    background-color: #090909;
 }
 
-.social-media a.twitter:hover {
-    background-color: #0d95e8;
-}
+
 
 .more-about-me {
     margin: 20px;
     padding: 10px;
+    cursor: pointer;
     border-radius: 3px solid #fff;
     font-size: 20px; /* Set the font size of the button to 20px */
     background-color: #87CEEB; /* Set background color to sky blue */
@@ -148,7 +130,7 @@ nav {
     border-radius: 50%; /* Circular border */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Shadow for depth */
     overflow: hidden; /* Ensures no overflow of content outside the border */
-    width: 200px; /* Set the width of the image container to 800px */
+    width: 100px; /* Set the width of the image container to 800px */
     margin: 0 auto; /* Center the container */
 }
 
@@ -160,7 +142,7 @@ nav {
 
 .image-content:hover img {
     transform: scale(1.05); /* Slightly enlarge the image on hover */
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.75); /* Bright shine effect */
+    box-shadow: 0 0 20px rgba(91, 11, 11, 0.75); /* Bright shine effect */
 }
 
 
@@ -168,4 +150,3 @@ nav {
 
 
 
-}
