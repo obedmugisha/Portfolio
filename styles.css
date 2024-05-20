@@ -1,0 +1,171 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+}
+/* styles.css */
+
+body {
+    margin: 0;
+    
+}
+
+.nav {
+    background-color: #030938;
+    color: white;
+    padding: 10px 20px;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    margin: 0;
+    font-size: 30px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0.6rem;
+}
+
+.nav-links li {
+    margin-left: 28px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.hero{
+    background-color: #2c4940;
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.text-content {
+    flex: 1;
+    padding-right: 20px;
+    margin-top: -10px;
+}
+
+.image-content {
+    flex: 1;
+    text-align: right;
+}
+
+.image-content img {
+    max-width: 100%;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+.button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.social-media {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.social-media a {
+    color: white;
+    background-color: #0077b5; /* LinkedIn blue */
+    padding: 8px;
+    border-radius: 50%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+.social-media a:hover {
+    background-color: #005691;
+}
+
+.social-media a.github {
+    background-color: #333;
+}
+
+.social-media a.github:hover {
+    background-color: #24292e;
+}
+
+.social-media a.twitter {
+    background-color: #1DA1F2;
+}
+
+.social-media a.twitter:hover {
+    background-color: #0d95e8;
+}
+
+.more-about-me {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 3px solid #fff;
+    font-size: 20px; /* Set the font size of the button to 20px */
+    background-color: #87CEEB; /* Set background color to sky blue */
+    color: white; /* Set text color to white */
+}
+
+.more-about-me:hover {
+    background-color: #a4d7f5; 
+    box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.2);
+    animation: sparkle 1.5s infinite;
+}
+
+.image-content {
+    border-radius: 50%; /* Circular border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Shadow for depth */
+    overflow: hidden; /* Ensures no overflow of content outside the border */
+    width: 200px; /* Set the width of the image container to 800px */
+    margin: 0 auto; /* Center the container */
+}
+
+.image-content img {
+    width: 100%; /* Ensure the image fills the container */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.5s ease; /* Smooth transformation on hover */
+}
+
+.image-content:hover img {
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.75); /* Bright shine effect */
+}
+
+
+
+
+
+
+}
